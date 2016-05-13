@@ -166,10 +166,10 @@
     "prefer-spread": "error",
 //    "prefer-template": "error",
     "require-yield": "error",
-    "quotes": [
-      "warn",
-      "backtick"
-    ],
+    // "quotes": [
+    //   "warn",
+    //   "backtick"
+    // ],
     "semi": [
       "error",
       "never"
