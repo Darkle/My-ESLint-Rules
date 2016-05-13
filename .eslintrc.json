@@ -167,7 +167,7 @@
 //    "prefer-template": "error",
     "require-yield": "error",
     "quotes": [
-      "error",
+      "warn",
       "backtick"
     ],
     "semi": [
