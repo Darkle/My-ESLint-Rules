@@ -11,8 +11,7 @@
     "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {
-      "impliedStrict": true,
-      "experimentalObjectRestSpread": true
+      "impliedStrict": true
     }
   },
   "rules": {
@@ -128,7 +127,7 @@
     "no-new-symbol": "error",
     "no-new-wrappers": "error",
     "no-octal-escape": "error",
-    "no-param-reassign": "error",
+//    "no-param-reassign": "error",
     "no-path-concat": "error",
     "no-plusplus": [
       "error",
@@ -136,7 +135,7 @@
         "allowForLoopAfterthoughts": true
       }
     ],
-    "no-process-exit": "error",
+//    "no-process-exit": "error",
     "no-proto": "error",
     "no-return-assign": "error",
     "no-script-url": "error",
@@ -152,7 +151,7 @@
     "no-unexpected-multiline": "error",
     "no-unneeded-ternary": "error",
     "no-unsafe-finally": "error",
-    "no-use-before-define": "error",
+//    "no-use-before-define": "error",
     "no-useless-call": "error",
     "no-useless-concat": "error",
     "no-useless-constructor": "error",
@@ -161,14 +160,17 @@
     "no-void": "error",
     "no-whitespace-before-property": "error",
     "no-with": "error",
-    "object-shorthand": "error",
-    "prefer-const": "error",
+//    "object-shorthand": "error",
+    "prefer-const": ["error", {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+    }],
     "prefer-rest-params": "error",
     "prefer-spread": "error",
 //    "prefer-template": "error",
     "require-yield": "error",
 //    "quotes": [
-//      "warn",
+//      "error",
 //      "backtick"
 //    ],
     "semi": [
@@ -190,7 +192,7 @@
       "error",
       "always"
     ],
-    "vars-on-top": "error",
+//    "vars-on-top": "error",
     "wrap-iife": [
       "error",
       "any"
