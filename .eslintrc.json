@@ -4,17 +4,18 @@
     "commonjs": true,
     "es6": true,
     "node": true,
-    "webextensions": true,
+    /*"webextensions": true,*/
     "jquery": true
   },
   "globals": {
   },
   "extends": "eslint:recommended",
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 2017,
     "sourceType": "module",
     "ecmaFeatures": {
-      "impliedStrict": true
+      "impliedStrict": true,
+      "experimentalObjectRestSpread": true
     }
   },
   "rules": {
