@@ -65,7 +65,7 @@
       "error",
       2,
       {
-        "MemberExpression": 1
+        "MemberExpression": 0
       }
     ],
     "jsx-quotes": [
