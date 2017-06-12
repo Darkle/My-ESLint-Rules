@@ -173,6 +173,11 @@
     "no-whitespace-before-property": "error",
     "no-with": "error",
     "object-shorthand": "error",
+    "padding-line-between-statements": [
+        "error",
+        { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
+        { "blankLine": "any",    "prev": ["const", "let", "var"], "next": ["const", "let", "var"]}
+    ],
     "prefer-const": ["error", {
         "destructuring": "any",
         "ignoreReadBeforeAssign": false
