@@ -80,6 +80,7 @@
       }
     ],
     "no-await-in-loop": "error",
+    "no-buffer-constructor": "error",
     "no-caller": "error",
     "no-class-assign": "error",
     "no-confusing-arrow": "warn",
