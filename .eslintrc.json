@@ -81,6 +81,7 @@
         "after": true
       }
     ],
+    "getter-return": "error",
     "guard-for-in": "error",
     "handle-callback-err": "error",
     "indent": [
