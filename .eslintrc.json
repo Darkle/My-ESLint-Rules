@@ -21,7 +21,6 @@
       "experimentalObjectRestSpread": true
     }
   },
-  "rules": {
  "rules": {
     "accessor-pairs": "error",
     "array-callback-return": "error",
