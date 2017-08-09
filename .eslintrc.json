@@ -22,6 +22,7 @@
     }
   },
   "rules": {
+ "rules": {
     "accessor-pairs": "error",
     "array-callback-return": "error",
     "arrow-body-style": [
@@ -53,27 +54,8 @@
       "last"
     ],
     "comma-dangle": 0,
-    "curly": "error",
+    "curly": ["error", "multi-line"],
     "eqeqeq": "error",
-    "fp/no-arguments": "error",
-    "fp/no-class": "error",
-    "fp/no-delete": "error",
-    "fp/no-events": "error",
-    "fp/no-get-set": "error",
-    "fp/no-let": "error",
-    "fp/no-loops": "error",
-    "fp/no-mutating-assign": "error",
-    "fp/no-mutating-methods": "error",
-    "fp/no-mutation": ["error", {
-      "commonjs": true
-    }],
-    "fp/no-nil": "error",
-    "fp/no-proxy": "error",
-    "fp/no-rest-parameters": "error",
-    "fp/no-this": "error",
-    "fp/no-throw": "error",
-    /*"fp/no-unused-expression": "error",*/
-    "fp/no-valueof-field": "error",
     "generator-star-spacing": [
       "error",
       {
@@ -84,13 +66,6 @@
     "getter-return": "error",
     "guard-for-in": "error",
     "handle-callback-err": "error",
-    "indent": [
-      "error",
-      2,
-      {
-        "MemberExpression": 0
-      }
-    ],
     "jsx-quotes": [
       "error",
       "prefer-single"
@@ -106,9 +81,9 @@
     "no-buffer-constructor": "error",
     "no-caller": "error",
     "no-class-assign": "error",
-    "no-confusing-arrow": "warn",
     "no-console": 0,
     "no-const-assign": "error",
+    "no-debugger": "error",
     "no-dupe-class-members": "error",
     "no-duplicate-imports": "error",
     "no-else-return": "error",
@@ -135,7 +110,7 @@
       }
     ],
     "no-mixed-spaces-and-tabs": "error",
-    "no-multi-spaces": "error",
+    "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
     "no-multi-str": "error",
     "no-native-reassign": [
       "error",
@@ -225,7 +200,7 @@
     ],
     "space-before-function-paren": [
       "error",
-      "never"
+      {"anonymous": "never", "named": "never", "asyncArrow": "always"}
     ],
     "template-curly-spacing": [
       "error",
